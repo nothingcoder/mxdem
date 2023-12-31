@@ -5,9 +5,9 @@ const TelegramBot = require("node-telegram-bot-api")
 const dotenv = require("dotenv")
 
 dotenv.config()
-const token = process.6775484303:AAEs5rUo0f-hJHv8MimDno-t2KzN_aaEjYw
+const token = "6775484303:AAEs5rUo0f-hJHv8MimDno-t2KzN_aaEjYw"
 const configuration = new Configuration({
-  apiKey: process.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,
+  apiKey: "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",
 })
 const openai = new OpenAIApi(configuration)
 const bot = new TelegramBot(token, { polling: true })
